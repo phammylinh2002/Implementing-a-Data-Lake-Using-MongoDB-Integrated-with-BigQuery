@@ -74,7 +74,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
  
 13. Add a trigger using EventBridge
  
-14. Use **cron(10 \* \* \* ? *)** as the cron expression for the trigger
+14. Use **cron(10 \* \* \* ? \*)** as the cron expression for the trigger
  
 15. Check if the **Rule state** of the trigger is **ENABLED** in **Configuration > Triggers** and you're done
  
