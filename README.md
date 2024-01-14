@@ -64,7 +64,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
  
 8. Download the unstandard Python libraries into that directory using `pip install requests pymongo boto3 python-dotenv fuzzywuzzy python-Levenshtein -t .`
  
-9. Zip all files in that directory using `“zip -r ingest_weather_data.zip .`
+9. Zip all files in that directory using `zip -r ingest_weather_data.zip .`
  
 10. Create a Lambda function on AWS
  
