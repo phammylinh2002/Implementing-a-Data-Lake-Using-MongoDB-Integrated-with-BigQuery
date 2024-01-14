@@ -106,20 +106,20 @@ TRANSFER_TOPIC_ARN: The ARN of another topic on AWS SNS
 
 7. Paste your **AWS_ACCESS_KEY**, **AWS_SECRET_ACCESS_KEY**, **REGION_NAME** into the terminal (I skip file format as its default format - JSON - is ok)
 
-8. Run the commands below to create a directory and its sub-directories to store source code files and necessary data files
-`mkdir process_insert_update_weather_data`
-`cd process_insert_update_weather_data`
-`mkdir data`
-`mkdir log`
-`mkdir src`
+8. Run the commands below to create a directory and its sub-directories to store source code files and necessary data files  
+`mkdir process_insert_update_weather_data`  
+`cd process_insert_update_weather_data`  
+`mkdir data`  
+`mkdir log`  
+`mkdir src`  
 
-9. Copy, paste and save the GCP service account key file content in the **data** directory
-`cd data`
-`nano [your file name]`
-**Paste the content**
-<kbd>CTRL + X</kbd>
-<kbd>Y</kbd>
-<kbd>ENTER</kbd>
+9. Copy, paste and save the GCP service account key file content in the **data** directory  
+`cd data`  
+`nano [your file name]`  
+**Paste the content**  
+<kbd>CTRL + X</kbd>  
+<kbd>Y</kbd>  
+<kbd>ENTER</kbd>  
 
 10. Do so with the **.env**, **monitor.sh**, and **process_insert_update_weather_data.py** files in the **src** directory
 
@@ -140,12 +140,12 @@ TRANSFER_TOPIC_ARN: The ARN of another topic on AWS SNS
 
 # The data in my data lake
 
-This is the hourly weather data in MongoDB at the time I write this README.md file:
-![The hourly weather data in MongoDB](diagrams/hourly_weather_data_in_MongoDB.png)
+This is the hourly weather data in MongoDB at the time I write this README.md file:  
+![The hourly weather data in MongoDB](diagrams/hourly_weather_data_in_MongoDB.png)  
 
-And this is the hourly weather data in BigQuery:
-![The hourly weather data in BigQuery](diagrams/hourly_weather_data_in_BigQuery.png)
+And this is the hourly weather data in BigQuery:  
+![The hourly weather data in BigQuery](diagrams/hourly_weather_data_in_BigQuery.png)  
 
-The collection in MongoDB contains 53.613 documents - equivalent to 53.613 rows in the table in BigQuery. That means all the data inserted into the collection in MongoDB is captured and processed, loaded into BigQuery. There is no email about error since I officially deployed the programs and the data the programs handle is pretty good. You can contact to get this data though I don't know who will need this :D
+The collection in MongoDB contains 53.613 documents - equivalent to 53.613 rows in the table in BigQuery. That means all the data inserted into the collection in MongoDB is captured and processed, loaded into BigQuery. There is no email about error since I officially deployed the programs and the data the programs handle is pretty good. You can contact to get this data though I don't know who will need this :D  
 
 <span style="color:pink">There are many things need to be improved in this project, or perhaps, in my future projects which will be more "usable". I would love to hear any idea you come up with for this project. Happy learning!</span>
