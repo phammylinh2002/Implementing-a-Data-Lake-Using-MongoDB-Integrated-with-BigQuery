@@ -102,7 +102,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 7. Paste your **AWS_ACCESS_KEY**, **AWS_SECRET_ACCESS_KEY**, **REGION_NAME** into the terminal (I skip file format as its default format - JSON - is ok)
  
 8. Run the commands below to create a directory and its sub-directories to store source code files and necessary data files  
-`mkdir process_insert_update_weather_data` 
+`mkdir process_insert_update_weather_data`  
 `cd process_insert_update_weather_data`  
 `mkdir data`  
 `mkdir log`  
@@ -112,7 +112,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 `cd data`  
 `nano [your file name]`  
 *Paste the content*  
-<kbd> CTRL + X </kbd> > <kbd> Y </kbd> > <kbd> ENTER </kbd>  
+<kbd> CTRL + X </kbd>   >   <kbd> Y </kbd>   >   <kbd> ENTER </kbd>  
  
 10. Do so with the **.env**, **monitor.sh**, and **process_insert_update_weather_data.py** files in the **src** directory
  
