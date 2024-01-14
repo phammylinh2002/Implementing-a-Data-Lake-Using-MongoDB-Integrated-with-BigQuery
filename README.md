@@ -112,6 +112,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 `cd data`  
 `nano [your file name]`  
 *Paste the content* 
+ 
 <kbd>CTRL + X</kbd>  
 <kbd>Y</kbd>  
 <kbd>ENTER</kbd>  
