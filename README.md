@@ -87,11 +87,11 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 ## Deploy process_insert_update_weather_data.py
 
 1. Fill in those variables in .env file (Account, project, dataset, table, topic, key creation may be needed):
-BIGQUERY_DATASET_ID: The dataset name
-BIGQUERY_PLACES_TABLE_ID: The name of the table which stores descriptive data of 63 places
-BIGQUERY_WEATHER_TABLE_ID: The name of the table which stores hourly weather data of 63 places
-GCP_SERVICE_ACCOUNT_KEY_FILE_NAME: The JSON file name you download after creating a key on GCP
-TRANSFER_TOPIC_ARN: The ARN of another topic on AWS SNS
+- BIGQUERY_DATASET_ID: The dataset name
+- BIGQUERY_PLACES_TABLE_ID: The name of the table which stores descriptive data of 63 places
+- BIGQUERY_WEATHER_TABLE_ID: The name of the table which stores hourly weather data of 63 places
+- GCP_SERVICE_ACCOUNT_KEY_FILE_NAME: The JSON file name you download after creating a key on GCP
+- TRANSFER_TOPIC_ARN: The ARN of another topic on AWS SNS
  
 2. Run this on your local machine to insert descriptive data of 63 places to BigQuery `./process_insert_places_data.py`
  
