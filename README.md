@@ -1,7 +1,7 @@
 # Implementing a Data Lake Using MongoDB (Integrated with BigQuery)
  
 ## Description
- 
+<br />
 This project is my major project at university. The full name of the project the professor gave me is "Learn About Data Lake and Implement It on MongoDB". This project is a group work. And I am the one who was responsible for the latter part - Implement data lake on MongoDB.
  
 > Side story: I chose this topic because it is most related to my orientation and it seemed to be the most difficult topic among other ones to me. All other topics are quite familiar to me and I know what to do in every other topic. Therefore, I chose this - the data lake with MongoDB topic - to break myself out of my comfort zone where I would have chosen the easiser one.
