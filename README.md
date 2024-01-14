@@ -142,4 +142,4 @@ The collection in MongoDB contains 53.613 documents - equivalent to 53.613 rows 
 
 ### There are many things need to be improved in this project, or perhaps, in my future projects which will be more "usable". I would love to hear any idea you come up with for this project. Happy learning!
  
-> For Vietnamese audience, you can read the details of my project on this link: [my report](https://drive.google.com/file/d/19qYJK7kOUD1P4E4WaBT7fekho4gqkb1v/view?usp=sharing). You'll need to request the access to the report as I want to know who cares about my project.
+> For Vietnamese audience, you can read the details of my project on this link: [my report](https://drive.google.com/file/d/19qYJK7kOUD1P4E4WaBT7fekho4gqkb1v/view?usp=sharing). You'll need to request the access to the report as I want to know who cares about my project :>
