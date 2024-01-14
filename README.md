@@ -1,6 +1,7 @@
 # Implementing a Data Lake Using MongoDB (Integrated with BigQuery)
 
 ## Description
+
 This project is my major project at university. The full name of the project the professor gave me is "Learn About Data Lake and Implement It on MongoDB". This project is a group work. And I am the one who was responsible for the latter part - Implement data lake on MongoDB.
 
 > Side story: I chose this topic because it is most related to my orientation and it seemed to be the most difficult topic among other ones to me. All other topics are quite familiar to me and I know what to do in every other topic. Therefore, I chose this - the data lake with MongoDB topic - to break myself out of my comfort zone where I would have chosen the easiser one.
@@ -19,22 +20,17 @@ Another Python program is deployed on an EC2 instance to detect data changes in 
 > I can do anything now. And choosing to do risky things is now my favourite choice. Those are the big lessons to me - the lessons that anyone can know but not everyone can learn.  
 
 > I got an A for this project (A is the highest grade in my university, equivalent to 4.0) :D
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 # Deployment
 
 To re-deploy this project, it takes so much work as there are many keys needed. There are 2 main programs you need deploy: (1) ingest_weather_data.py, (2) process_insert_update_weather_data.py.
-
-
-
+ 
+  
+   
 ## Deploy ingest_weather_data.py
 
 1. Clone this repo
@@ -79,11 +75,9 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 14. Use **cron(10 \* \* \* ? *)** as the cron expression for the trigger
  
 15. Check if the **Rule state** of the trigger is **ENABLED** in **Configuration > Triggers** and you're done
-
-
-
-
-
+ 
+ 
+ 
 ## Deploy process_insert_update_weather_data.py
 
 1. Fill in those variables in .env file (Account, project, dataset, table, topic, key creation may be needed):
@@ -127,16 +121,11 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 12. Run the Shell program `nohup ./monitor.sh > /dev/null &`
  
 13. Check if **monitor.sh** and **process_insert_update_weather_data.py** are running by running this command `ps aux | grep -e monitor.sh -e process_insert_update_weather_data.py`
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 # The data in my data lake
 
 This is the hourly weather data in MongoDB at the time I write this README.md file:  
