@@ -1,5 +1,5 @@
 # Implementing a Data Lake Using MongoDB (Integrated with BigQuery)
-<br />
+
 ## Description
 <br />
 This project is my major project at university. The full name of the project the professor gave me is "Learn About Data Lake and Implement It on MongoDB". This project is a group work. And I am the one who was responsible for the latter part - Implement data lake on MongoDB.
@@ -137,7 +137,7 @@ And this is the hourly weather data in BigQuery:
 ![The hourly weather data in BigQuery](diagrams/hourly_weather_data_in_BigQuery.png)  
 <br />
 The collection in MongoDB contains 53.613 documents - equivalent to 53.613 rows in the table in BigQuery. That means all the data inserted into the collection in MongoDB is captured and processed, loaded into BigQuery. There is no email about error since I officially deployed the programs and the data the programs handle is pretty good. You can contact to get this data though I don't know who will need this :D  
-<br />
-###There are many things need to be improved in this project, or perhaps, in my future projects which will be more "usable". I would love to hear any idea you come up with for this project. Happy learning!
+
+### There are many things need to be improved in this project, or perhaps, in my future projects which will be more "usable". I would love to hear any idea you come up with for this project. Happy learning!
 <br />
 > For Vietnamese audience, you can read the details of my project on this link: [my report](https://drive.google.com/file/d/19qYJK7kOUD1P4E4WaBT7fekho4gqkb1v/view?usp=sharing). You'll need to request the access to the report as I want to know who cares about my project.
