@@ -38,17 +38,17 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 1. Clone this repo
  
 2. Fill in those variables in .env file (Account, datasebase, collection, topic, key, and bucket creation may be needed):
-- MONGO_CONNECTION_STRING: Your MongoDB cluster connection string
-- MONGO_DB_NAME: Your MongoDB name
-- MONGO_PLACES_COLLECTION_NAME: The name of the collection which stores descriptive data about 63 places
-- MONGO_WEATHER_COLLECTION_NAME: The name of the collection which stores hourly weather data of those 63 places
-- PLACES_API_KEY: Your API key to get descriptive data about 63 places. Get it at: [Meteosource Weather API](https://rapidapi.com/MeteosourceWeather/api/ai-weather-by-meteosource). Remember to choose the **find_places** endpoint.
-- WEATHER_API_KEY: Your API key to get hourly weather data. Get it at: [Weather API](https://rapidapi.com/weatherapi/api/weatherapi-com). Remember to choose the **Realtime Weather API** endpoint.
-- INGESTION_TOPIC_ARN: Create a topic on AWS SNS and paste the ARN of that topic here
-- AWS_ACCESS_KEY: Create an access key on AWS and paste its access key here
-- AWS_SECRET_ACCESS_KEY: Paste the sescret access key of the same access above here
-- REGION_NAME: The region name which you choose to use
-- BUCKET_NAME: Create an S3 bucket and paste its name here
+- **MONGO_CONNECTION_STRING**: Your MongoDB cluster connection string
+- **MONGO_DB_NAME**: Your MongoDB name
+- **MONGO_PLACES_COLLECTION_NAME**: The name of the collection which stores descriptive data about 63 places
+- **MONGO_WEATHER_COLLECTION_NAME**: The name of the collection which stores hourly weather data of those 63 places
+- **PLACES_API_KEY**: Your API key to get descriptive data about 63 places. Get it at: [Meteosource Weather API](https://rapidapi.com/MeteosourceWeather/api/ai-weather-by-meteosource). Remember to choose the **find_places** endpoint.
+- **WEATHER_API_KEY**: Your API key to get hourly weather data. Get it at: [Weather API](https://rapidapi.com/weatherapi/api/weatherapi-com). Remember to choose the **Realtime Weather API** endpoint.
+- **INGESTION_TOPIC_ARN**: Create a topic on AWS SNS and paste the ARN of that topic here
+- **AWS_ACCESS_KEY**: Create an access key on AWS and paste its access key here
+- **AWS_SECRET_ACCESS_KEY**: Paste the sescret access key of the same access above here
+- **REGION_NAME**: The region name which you choose to use
+- **BUCKET_NAME**: Create an S3 bucket and paste its name here
   
 3. Install dependencies using `pip install -r requirements.txt`
  
@@ -83,11 +83,11 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 ## Deploy process_insert_update_weather_data.py
  
 1. Fill in those variables in .env file (Account, project, dataset, table, topic, key creation may be needed):
-- BIGQUERY_DATASET_ID: The dataset name
-- BIGQUERY_PLACES_TABLE_ID: The name of the table which stores descriptive data of 63 places (You may need the **create_tables.sql** to create this and the next tables on the created BigQuery dataset)
-- BIGQUERY_WEATHER_TABLE_ID: The name of the table which stores hourly weather data of 63 places
-- GCP_SERVICE_ACCOUNT_KEY_FILE_NAME: The JSON file name you download after creating a key on GCP
-- TRANSFER_TOPIC_ARN: The ARN of another topic on AWS SNS
+- **BIGQUERY_DATASET_ID**: The dataset name
+- **BIGQUERY_PLACES_TABLE_ID**: The name of the table which stores descriptive data of 63 places (You may need the **create_tables.sql** to create this and the next tables on the created BigQuery dataset)
+- **BIGQUERY_WEATHER_TABLE_ID**: The name of the table which stores hourly weather data of 63 places
+- **GCP_SERVICE_ACCOUNT_KEY_FILE_NAME**: The JSON file name you download after creating a key on GCP
+- **TRANSFER_TOPIC_ARN**: The ARN of another topic on AWS SNS
  
 2. Run this on your local machine to insert descriptive data of 63 places to BigQuery `./process_insert_places_data.py`
  
