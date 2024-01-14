@@ -84,7 +84,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
  
 1. Fill in those variables in .env file (Account, project, dataset, table, topic, key creation may be needed):
 - BIGQUERY_DATASET_ID: The dataset name
-- BIGQUERY_PLACES_TABLE_ID: The name of the table which stores descriptive data of 63 places
+- BIGQUERY_PLACES_TABLE_ID: The name of the table which stores descriptive data of 63 places (You may need the **create_tables.sql** to create this and the next tables on the created BigQuery dataset)
 - BIGQUERY_WEATHER_TABLE_ID: The name of the table which stores hourly weather data of 63 places
 - GCP_SERVICE_ACCOUNT_KEY_FILE_NAME: The JSON file name you download after creating a key on GCP
 - TRANSFER_TOPIC_ARN: The ARN of another topic on AWS SNS
