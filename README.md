@@ -111,11 +111,8 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 9. Copy, paste and save the GCP service account key file content in the **data** directory  
 `cd data`  
 `nano [your file name]`  
-*Paste the content* 
- 
-<kbd>CTRL + X</kbd>  
-<kbd>Y</kbd>  
-<kbd>ENTER</kbd>  
+*Paste the content*  
+<kbd> CTRL + X </kbd> > <kbd> Y </kbd> > <kbd> ENTER </kbd>  
  
 10. Do so with the **.env**, **monitor.sh**, and **process_insert_update_weather_data.py** files in the **src** directory
  
