@@ -111,7 +111,7 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 9. Copy, paste and save the GCP service account key file content in the **data** directory  
 `cd data`  
 `nano [your file name]`  
-**Paste the content**  
+*Paste the content*
 <kbd>CTRL + X</kbd>  
 <kbd>Y</kbd>  
 <kbd>ENTER</kbd>  
