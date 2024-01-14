@@ -42,8 +42,8 @@ To re-deploy this project, it takes so much work as there are many keys needed. 
 - MONGO_DB_NAME: Your MongoDB name
 - MONGO_PLACES_COLLECTION_NAME: The name of the collection which stores descriptive data about 63 places
 - MONGO_WEATHER_COLLECTION_NAME: The name of the collection which stores hourly weather data of those 63 places
-- PLACES_API_KEY: Your API key to get descriptive data about 63 places. Get it at: [API](https://rapidapi.com/MeteosourceWeather/api/ai-weather-by-meteosource). Remember to choose the **find_places** endpoint.
-- WEATHER_API_KEY: Your API key to get hourly weather data. Get it at: [API](https://rapidapi.com/weatherapi/api/weatherapi-com). Remember to choose the **Realtime Weather API** endpoint.
+- PLACES_API_KEY: Your API key to get descriptive data about 63 places. Get it at: [Meteosource Weather API](https://rapidapi.com/MeteosourceWeather/api/ai-weather-by-meteosource). Remember to choose the **find_places** endpoint.
+- WEATHER_API_KEY: Your API key to get hourly weather data. Get it at: [Weather API](https://rapidapi.com/weatherapi/api/weatherapi-com). Remember to choose the **Realtime Weather API** endpoint.
 - INGESTION_TOPIC_ARN: Create a topic on AWS SNS and paste the ARN of that topic here
 - AWS_ACCESS_KEY: Create an access key on AWS and paste its access key here
 - AWS_SECRET_ACCESS_KEY: Paste the sescret access key of the same access above here
