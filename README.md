@@ -17,6 +17,7 @@ Another Python program is deployed on an EC2 instance to detect data changes in 
 > I spent so much time for error handling for this project. However, after more than 1 month of deployment, there is 0 error :D They all run perfectly well.
  
 > Side story: I am aware that although this is a major project, it is small. It is not applicable, usable nor realistic. And I struggled so much because of this thought. My major is Managment Information Systems. At the time I did this project, I am in my 4th year. However, I have been in this major for just 2 years as I made a major change from marketing. My major does not focus on all the things I learned by myself to make this project. I did have to learn so much. And I did apply so much from what I learned. That is what matters. It is not applicable, usable nor realistic - I know that but what I learned from this project matters more. Not the data lake, Python, Bash, AWS, GCP, MongoDB knowledge that makes me content but how proud I feel of myself that does. I am no longer a shy girl who was afraid that she was "behind" many people, that she was not "enough", and that her abilities are doutful.  
+  
 > I can do anything now. And choosing to do risky things is now my favourite choice. Those are the big lessons to me - the lessons that anyone can know but not everyone can learn.  
  
 > I got an A for this project (A is the highest grade in my university, equivalent to 4.0) :D
